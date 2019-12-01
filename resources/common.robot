@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 
-navigate to app
+navigate to app actitime
     open browser  https://online.actitime.com/testyantra/login.do  chrome
     Maximize Browser Window
 

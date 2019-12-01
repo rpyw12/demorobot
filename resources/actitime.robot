@@ -8,7 +8,7 @@ Resource  ../resources/PO/NewCustomerPage.Robot
 
 *** Keywords ***
 
-login
+login as user
     [Arguments]  ${username}  ${password}
     enter username  ${username}
     enter password  ${password}
